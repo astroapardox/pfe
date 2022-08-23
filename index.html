@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <title>Soft UI Pro</title>
+    <meta property="og:title" content="Soft UI Pro" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6 {  margin: 0;  padding: 0;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Open Sans;
+        font-size: 1rem;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.625;
+        color: var(--dl-color-secondary-400);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap"
+      data-tag="font"
+    />
+    <style>
+      html * {
+          -webkit-font-smoothing: antialiased;
+      }
+      input::placeholder, textarea::placeholder {
+         color: #d2d6da;
+      }
+    </style>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <link href="./home.css" rel="stylesheet" />
+
+      <div class="home-container">
+        <div data-role="Header" class="header-header header-root-class-name">
+          <nav class="header-nav">
+            <div class="header-container">
+              <a href="home.html" class="header-navlink large">
+                Just a header of  the page
+              </a>
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button buttonSmall">
+                  <span>contact</span>
+                </button>
+              </div>
+            </div>
+          </nav>
+          <div data-type="MobileMenu" class="header-mobile-menu">
+            <div class="header-top">
+              <a href="home.html" class="header-navlink1 large">
+                Soft UI Design System
+              </a>
+              <div data-type="CloseMobileMenu" class="header-close-menu">
+                <svg viewBox="0 0 1024 1024" class="header-icon">
+                  <path
+                    d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                  ></path>
+                </svg>
+              </div>
+            </div>
+            <div class="header-mid">
+              <div class="header-menu">
+                <a href="home.html" class="header-navlink2 large">Home</a>
+                <span class="header-text large">Profile</span>
+                <span class="header-text1 large">Coming Soon</span>
+              </div>
+            </div>
+            <div class="header-bot">
+              <div class="primary-pink-button-container">
+                <button class="primary-pink-button-button button buttonSmall">
+                  <span>buy now</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="home-hero">
+          <div class="home-container01">
+            <div class="home-card">
+              <h1 class="home-text headingOne">Predict from Model</h1>
+              <h1 class="home-text01">How it works :</h1>
+              <span class="home-text02">
+                Runs the provided picture through the trained model and shows
+                the predictions in the field below
+              </span>
+              <div class="home-container02">
+                <div class="home-container03">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button buttonSmall"
+                    >
+                      <span>Upload Image</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="home-container04">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button buttonSmall"
+                    >
+                      <span>Predict</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <h1 class="home-text03 headingOne">Prediction results :</h1>
+              <span class="home-text04">
+                <span>Cavite: %</span>
+                <br class="home-text06" />
+                <span>Defauts des formes: %</span>
+                <br class="home-text08" />
+                <span>Fissures: %</span>
+                <br class="home-text10" />
+                <span>Inclusion: %</span>
+                <br class="home-text12" />
+                <span>Manque-de-fusion: %</span>
+                <br class="home-text14" />
+                <span>Normal: %</span>
+              </span>
+            </div>
+            <div class="home-card1">
+              <h1 class="home-text16 headingOne">Train new Model :</h1>
+              <h1 class="home-text17">How it works :</h1>
+              <span class="home-text18">
+                Add a new dataset or add new data to existing data then re train
+                the model.
+              </span>
+              <div class="home-container05">
+                <div class="home-container06">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button buttonSmall"
+                    >
+                      <span>Add Dataset</span>
+                    </button>
+                  </div>
+                </div>
+                <div class="home-container07">
+                  <div class="primary-pink-button-container">
+                    <button
+                      class="primary-pink-button-button button buttonSmall"
+                    >
+                      <span>Train</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <img
+          alt="image"
+          src="public/playground_assets/curved6-1300h.jpg"
+          class="home-image"
+        />
+        <section class="home-testimonials">
+          <div class="home-container08">
+            <div class="home-container09">
+              <div class="home-container10">
+                <div class="home-container11">
+                  <div class="home-container12">
+                    <h1 class="home-text19">
+                      Last Trained model information :
+                    </h1>
+                    <span class="home-text20">
+                      Date and time of the last created model :
+                    </span>
+                  </div>
+                  <h1 class="home-text21">
+                    <br />
+                    <span>Data bias check plot :</span>
+                    <br />
+                    <br />
+                  </h1>
+                </div>
+                <img
+                  alt="image"
+                  src="dataplot.png"
+                  class="home-image1"
+                />
+              </div>
+              <h1 class="home-text26">
+                <br />
+                <span>Training results plot :</span>
+                <br />
+                <br />
+              </h1>
+              <img
+                alt="image"
+                src="trainplot.png"
+                class="home-image2"
+              />
+            </div>
+            <span>Text</span>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/bottom.svg"
+            class="home-bottom-wave-image"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="home-image3"
+          />
+          <img
+            alt="image"
+            src="public/playground_assets/top.svg"
+            class="home-top-wave-image"
+          />
+        </section>
+        <footer class="footer-footer">
+          <div class="footer-container">
+            <div class="footer-container1">
+              <span class="footer-text">Footer</span>
+            </div>
+          </div>
+          <img
+            alt="image"
+            src="public/playground_assets/waves-white.svg"
+            class="footer-image"
+          />
+        </footer>
+      </div>
+    </div>
+    <script src="https://unpkg.com/@teleporthq/teleport-custom-scripts"></script>
+  </body>
+</html>
